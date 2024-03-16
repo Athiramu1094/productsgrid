@@ -1,0 +1,132 @@
+*{
+ padding: 0;
+ margin: 0;
+box-sizing: border-box;
+}
+
+#logo{
+height: 144px;
+padding-top: 16px;
+
+}
+
+.container{
+height: 50px;
+
+background-color: darkgreen;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 16px;
+padding-left: 50px;
+}
+
+.icons{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.searchbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+    background-color: white;
+    padding: 5px;
+    width: 30%;
+    border-radius: 20px;
+    padding-left: 10px;
+} 
+
+
+#search{
+    color: black;
+    font-size: 15px;
+}
+
+#searchbox{
+    border: none;
+    width: 100%;
+    outline: none;
+}
+
+
+.product img{
+height: 215px;
+width: 215px;
+padding-left: 50px;
+}
+.rating{
+    color: rgb(255, 162, 0);
+}
+.priceandbutton{
+display: flex;
+flex-direction: row;
+gap: 24px;
+}
+
+.section1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 24px;
+    padding-top: 50px;
+    padding-left: 25px;
+    padding-right: 25px;
+    height: 500px;
+    
+}
+
+.product{
+    border-style: solid;
+    border-color: beige;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    height: 500px;
+    
+    
+}
+h2{
+    padding-left: 50px;
+    padding-top: 50px;
+}
+
+.button{
+    background-color: green;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 25px;
+    margin-bottom: 200px;
+    
+
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.priceandbutton{
+    padding-top: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.button1{
+    background-color: green;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 25px;
+     
+}
+.content1{
+    display: flex;
+    flex-direction: column;
+    gap: 25px; 
+}
